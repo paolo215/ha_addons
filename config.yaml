@@ -1,0 +1,10 @@
+name: "Paolo Custom Add-on"
+description: "Custom add-on"
+version: "1.0.0"
+slug: "custom_addon"
+startup: "services"
+boot: "auto"
+devices:
+  - "/dev/sda1:/dev/sda1:rwm"]
+privileged:
+  - "SYS_ADMIN"
